@@ -38,6 +38,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
@@ -154,6 +155,7 @@
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
