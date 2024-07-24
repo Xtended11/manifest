@@ -11,9 +11,14 @@
            fetch="https://gitlab.com/project-xtended"
            revision="refs/heads/xr" />
 
+  <remote  name="Xtended11"
+           fetch="https://github.com/Xtended11"
+           revision="refs/heads/xr" />
+
   <remote  name="xtended"
            fetch="https://github.com/Project-Xtended"
            revision="refs/heads/xr" />
+
 
   <remote  name="Xtended-Devices"
            fetch="https://github.com/Xtended-Devices"
@@ -30,7 +35,7 @@
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="xtended" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="xtended" />
   <project path="external/cpu_features" name="external_cpu_features" remote="xtended" />
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="xtended-gitlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="Xtended11" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="xtended" />
   <project path="external/libpng" name="external_libpng" remote="xtended" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="xtended" />
@@ -122,7 +127,7 @@
   <project path="system/iorap" name="system_iorap" remote="xtended" />
   <project path="system/netd" name="system_netd" remote="xtended" />
   <project path="system/vold" name="system_vold" remote="xtended" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="xtended" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="Xtended11" />
 
   <!-- Vendor repos -->
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="xtended" revision="xr-pn5xx" />
