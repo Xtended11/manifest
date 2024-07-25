@@ -46,8 +46,8 @@
   <project path="external/libyuv" name="external_libyuv" remote="xtended" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="xtended" />
-  <project path="frameworks/base" name="frameworks_base" remote="xtended" />
+  <project path="frameworks/av" name="frameworks_av" remote="Xtended11" />
+  <project path="frameworks/base" name="frameworks_base" remote="Xtended11" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="xtended" />
   <project path="frameworks/native" name="frameworks_native" remote="xtended" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="xtended" />
@@ -58,7 +58,7 @@
   <project path="art" name="art" remote="xtended" />
   <project path="bionic" name="bionic" remote="xtended" />
   <project path="bootable/recovery" name="bootable_recovery" remote="xtended" />
-  <project path="build/make" name="build" remote="xtended" >
+  <project path="build/make" name="build" remote="Xtended11" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -85,12 +85,13 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="xtended" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="Xtended11" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="xtended" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="xtended" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="xtended" />
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="xtended" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="Xtended11" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xtended" />
   <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="xtended" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="xtended" />
@@ -98,7 +99,7 @@
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="xtended" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="xtended" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xtended" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="Xtended11" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="xtended" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="rvc" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="xtended" />
@@ -122,7 +123,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="xtended" />
 
   <!-- System repos -->
-  <project path="system/bt" name="system_bt" remote="xtended" />
+  <project path="system/bt" name="system_bt" remote="Xtended11" />
   <project path="system/core" name="system_core" remote="xtended" />
   <project path="system/iorap" name="system_iorap" remote="xtended" />
   <project path="system/netd" name="system_netd" remote="xtended" />
